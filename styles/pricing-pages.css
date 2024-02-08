@@ -1013,6 +1013,7 @@ div.author p:nth-child(odd) {
 @media screen and (max-width:1023px) 
 {
     nav {
+        padding: 15px;
         grid-template-columns: minmax(300px, 2fr) minmax(300px, 2fr);
         grid-template-areas: 'icon login-and-trial-buttons';
     }
