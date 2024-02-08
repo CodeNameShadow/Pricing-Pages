@@ -13,8 +13,8 @@
 
 body {
     font-family: 'Kanit' , sans-serif;
-    max-width: 100%;
-    height: 100%;
+    max-width: 100vw;
+    max-height: 100dvh;
     display: grid;
     /* border: 5px solid orange; */
     grid-template-columns: repeat(3, 1fr);
@@ -1114,6 +1114,9 @@ div.author p:nth-child(odd) {
 
 @media screen and (max-width:767px) 
 {
+    body {
+        overflow-x: hidden;
+    }
     nav {
         padding: 2%;
     }
@@ -1240,6 +1243,9 @@ div.author p:nth-child(odd) {
 
 @media screen and (max-width: 550px) 
 {
+    body {
+        overflow-x: hidden;
+    }
     nav {
         padding: 3%;
     }
