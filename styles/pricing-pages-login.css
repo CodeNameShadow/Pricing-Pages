@@ -211,9 +211,6 @@ section.form form button:focus {
     section.form {
         min-width: 100%;
     }
-    form {
-        width: 100%;
-    }
 }
 
 
