@@ -1114,7 +1114,7 @@ div.author p:nth-child(odd) {
 @media screen and (max-width:767px) 
 {
     nav {
-        padding: 2%;
+        padding: 10px;
     }
     .nav-logo-container h1 {
         display: flex;
