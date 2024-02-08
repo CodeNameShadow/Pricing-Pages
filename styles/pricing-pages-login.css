@@ -216,7 +216,7 @@ section.form form button:focus {
 
 @media screen and (max-width:767px) {
     section.form {
-        min-width: 95%;
+        min-width: 97%;
     }
     form {
         width: 50%;
