@@ -21,7 +21,6 @@ body {
     grid-template-areas: 'nav nav nav'
                          'main main main'
                          'footer footer footer';
-    background-color:#FFF5EE;
 }
 
 /* navbar */
